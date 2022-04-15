@@ -15,3 +15,7 @@ code {
 .appeared {
   display: 'initial!important'
 }
+
+[type = 'submit']:hover {
+  cursor: pointer;
+}
