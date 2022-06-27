@@ -78,10 +78,9 @@ const Projects = (props) => {
         title: 'Euchre Game',
         learnedList: (
             <ul style={{ color: 'white', margin: '0 auto', fontSize: '18px', fontWeight: 400, display: 'flex', flexDirection: 'column', gap: 7 }}>
-                <li>Advantages in control with vanilla HTML, CSS, and JS</li>
-                <li>A solid grasp on most basic actions in HTML, CSS, and JS.</li>
-                <li>A solid grasp on many advanced actions including DOM manipulation, pseudo-classes, and semantic tags.</li>
-                <li>Disadvantages of vanilla when it comes to DOM manipulation.(Makes React seem a lot more valuable)</li>
+                <li>Strong control over the basics in HTML, CSS, and JS.</li>
+                <li>Advanced actions in HTML, CSS, and JS including DOM manipulation, pseudo-classes, and semantic tags.</li>
+                <li>Disadvantages of vanilla JS, specifically when it comes to DOM manipulation. (Makes React seem a lot more valuable)</li>
             </ul>
         ),
         liveLink: 'https://jackroehrig.github.io',
@@ -100,9 +99,9 @@ const Projects = (props) => {
         title: 'Clothing Store App',
         learnedList: (
             <ul style={{ color: 'white', margin: '0 auto', fontSize: '18px', fontWeight: 400, display: 'flex', flexDirection: 'column', gap: 7 }}>
-                <li>Using Typescript and why it's useful. Specifically with React</li>
-                <li>I already knew SQL decently but this project strengthened my knowledge. Using it alongside Express was new as well as deploying it using Heroku's built in postgreSQL support.</li>
-                <li>Utilizing Bcrypt and JSON web token to implement authentication and authorization was a fun and extremely useful challenge.</li>
+                <li>Typescript and it's advantages with development. Also its use along with React.</li>
+                <li>SQL and how to create a relational database. Specifically PostgreSQL alongside Express as well as deploying it using Heroku's built in PostgreSQL support.</li>
+                <li>Bcrypt and JSON web token to implement authentication and authorization which was fun and extremely useful.</li>
             </ul>
         ),
         liveLink: 'https://radiant-ridge-27206.herokuapp.com/',
@@ -122,11 +121,11 @@ const Projects = (props) => {
         title: 'Restaurant Rating App',
         learnedList: (
             <ul style={{ color: 'white', margin: '0 auto', fontSize: '18px', fontWeight: 400, display: 'flex', flexDirection: 'column', gap: 7 }}>
-                <li>How to make a server using Express</li>
-                <li>How to connect and manipulate and a non-relational database using MongoDB and Mongoose</li>
-                <li>Using Node.JS to utilize JS on the backend</li>
-                <li>How to connect and show react views depending on the route</li>
-                <li>The benfit of using hooks in React like useState, useEffect, useContext, etc.</li>
+                <li>How to make a server using Express.</li>
+                <li>Connecting and manipulating and a non-relational database using MongoDB and Mongoose.</li>
+                <li>Using Node.JS to utilize JS on the backend.</li>
+                <li>Showing different react views depending on the express route.</li>
+                <li>The benefit of using hooks and functional components in React as opposed to class components.</li>
             </ul>
         ),
         liveLink: 'https://limitless-castle-20301.herokuapp.com/',
@@ -197,7 +196,7 @@ const Projects = (props) => {
                                             <Typography variant='subtitle1' sx={{ color: '#0059F7', fontSize: [15, 20, 20, 22], fontWeight: 600, display: 'inline', p: '5px', borderRadius: '10px' }}>Tech Used</Typography>
                                             {/* USE CHIPS WITH TECH LOGOS */}
                                             {image.techList}
-                                            <Typography variant='subtitle1' sx={{ color: '#0059F7', fontSize: [15, 20, 20, 22], fontWeight: 600, display: 'inline', p: '5px', borderRadius: '10px', mt: 2 }}>Things I Learned</Typography>
+                                            <Typography variant='subtitle1' sx={{ color: '#0059F7', fontSize: [15, 20, 20, 22], fontWeight: 600, display: 'inline', p: '5px', borderRadius: '10px', mt: 2 }}>I Learned...</Typography>
                                             {image.learnedList}
                                         </Box>
                                     </CardContent>
