@@ -80,7 +80,7 @@ const Projects = (props) => {
             <ul style={{ color: 'white', margin: '0 auto', fontSize: '18px', fontWeight: 400, display: 'flex', flexDirection: 'column', gap: 7 }}>
                 <li>Strong control over the basics in HTML, CSS, and JS.</li>
                 <li>Advanced actions in HTML, CSS, and JS including DOM manipulation, pseudo-classes, and semantic tags.</li>
-                <li>Disadvantages of vanilla JS, specifically when it comes to DOM manipulation. (Makes React seem a lot more valuable)</li>
+                <li>Disadvantages of vanilla JS, specifically when it comes to DOM manipulation (makes React seem a lot more valuable).</li>
             </ul>
         ),
         liveLink: 'https://jackroehrig.github.io',
@@ -122,7 +122,7 @@ const Projects = (props) => {
         learnedList: (
             <ul style={{ color: 'white', margin: '0 auto', fontSize: '18px', fontWeight: 400, display: 'flex', flexDirection: 'column', gap: 7 }}>
                 <li>How to make a server using Express.</li>
-                <li>Connecting and manipulating and a non-relational database using MongoDB and Mongoose.</li>
+                <li>Connecting and manipulating a non-relational database using MongoDB and Mongoose.</li>
                 <li>Using Node.JS to utilize JS on the backend.</li>
                 <li>Showing different react views depending on the express route.</li>
                 <li>The benefit of using hooks and functional components in React as opposed to class components.</li>
